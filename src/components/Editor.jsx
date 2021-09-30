@@ -9,13 +9,7 @@ export default function Editor() {
   return (
     <div id="editor">
       <h4>This is my editor</h4>
-      <textarea
-        onChange={handleChange}
-        name=""
-        id=""
-        cols="30"
-        rows="10"
-      ></textarea>
+      <textarea onChange={handleChange} cols="30" rows="10"></textarea>
       <Previewer value={text} />
     </div>
   );
